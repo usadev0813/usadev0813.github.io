@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f5f7fb" />
+    <meta name="description" content="제품과 운영을 함께 책임지는 5년차 백엔드 개발자 이정호의 이력서입니다." />
+    <meta property="og:title" content="이정호 | Backend Engineer" />
+    <meta property="og:description" content="도메인 설계부터 AWS 운영까지, 서비스의 끝을 책임지는 백엔드 개발자" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://usadev0813.github.io/" />
+    <meta property="og:image" content="https://usadev0813.github.io/public/og.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="이정호 | Backend Engineer" />
+    <meta name="twitter:description" content="도메인 설계부터 AWS 운영까지, 서비스의 끝을 책임지는 백엔드 개발자" />
+    <meta name="twitter:image" content="https://usadev0813.github.io/public/og.png" />
+    <link rel="canonical" href="https://usadev0813.github.io/" />
+    <title>이정호 | Backend Engineer</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#content">본문으로 건너뛰기</a>
+    <header class="topbar">
+      <a class="wordmark" href="#top" aria-label="이정호 이력서 맨 위로">LEE<br />JEONGHO</a>
+      <nav aria-label="주요 메뉴">
+        <a href="#experience">경력</a>
+        <a href="#projects">프로젝트</a>
+        <a href="#contact">연락처</a>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="색상 모드 전환">◐</button>
+    </header>
+
+    <main id="content">
+      <section class="hero" id="top">
+        <p class="eyebrow">BACKEND ENGINEER · 5+ YEARS</p>
+        <h1>서비스가 운영되는<br /><span>마지막 순간</span>까지<br />책임집니다.</h1>
+        <div class="hero-bottom">
+          <p class="lede">
+            요구사항을 API와 도메인으로 풀고, 배포 파이프라인과 장애 대응까지 연결하는 개발자 이정호입니다.
+            Kotlin·Java 기반 백엔드와 AWS 운영을 중심으로 공공 관광, 쿠폰, 정산 서비스를 만들어 왔습니다.
+          </p>
+          <div class="hero-links" aria-label="외부 링크">
+            <a href="mailto:usadev0813@gmail.com">Email ↗</a>
+            <a href="https://github.com/usadev0813" target="_blank" rel="noreferrer">GitHub ↗</a>
+            <a href="https://velog.io/@usa_dev" target="_blank" rel="noreferrer">Blog ↗</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="operating-line" aria-label="업무 범위">
+        <div><strong>01</strong><span>Domain</span><small>복잡한 정책을 모델로</small></div>
+        <div><strong>02</strong><span>Delivery</span><small>검증 가능한 배포로</small></div>
+        <div><strong>03</strong><span>Operate</span><small>지표와 로그를 근거로</small></div>
+        <div><strong>04</strong><span>Improve</span><small>반복을 자동화로</small></div>
+      </section>
+
+      <section class="section intro-grid">
+        <h2>소개</h2>
+        <div class="prose lead-copy">
+          <p>
+            기능 하나만 넘기는 개발보다 <strong>데이터 정합성, 배포, 모니터링, 운영자의 사용성</strong>을 함께 봅니다.
+            멀티모듈 설계와 JWT 인증, GitOps를 경험했고, 현 직장에서는 Kotlin/Spring 서비스의 설계·개발과
+            AWS 인프라 운영을 함께 맡고 있습니다.
+          </p>
+          <p>
+            레거시 Java/JSP부터 Next.js 관리 도구, Python 자동화까지 기술의 새로움보다 문제에 맞는 도구를 고릅니다.
+            장애 상황에서는 추측 대신 로그, 체크섬, 배포 상태, 실제 응답으로 확인합니다.
+          </p>
+        </div>
+      </section>
+
+      <section class="section" id="experience">
+        <div class="section-heading">
+          <h2>경력</h2>
+          <p>문제 → 선택 → 운영 결과가 드러나는 경험만 정리했습니다.</p>
+        </div>
+
+        <article class="career">
+          <header class="career-head">
+            <div><p class="company">누아</p><h3>Backend Engineer</h3></div>
+            <p class="period">현재</p>
+          </header>
+          <div class="career-body">
+            <div class="career-summary">
+              <p>관광·MICE·지역 상권·여행 정산 서비스를 개발하고 AWS 운영까지 담당합니다.</p>
+              <div class="tags"><span>Kotlin</span><span>Spring Boot</span><span>MySQL</span><span>AWS</span><span>Next.js</span><span>Python</span></div>
+            </div>
+            <div class="achievement-list">
+              <article>
+                <h4>여러 서비스의 운영을 하나의 배포 흐름으로 연결</h4>
+                <p>ECS·ECR·CodePipeline 기반 배포를 운영하고, CloudWatch 로그와 ALB·RDS 지표로 장애와 용량 문제를 진단했습니다. WAF 차단 알림과 개발 서버 스케줄링도 실제 운영 흐름에 연결했습니다.</p>
+              </article>
+              <article>
+                <h4>세종 음식점 쿠폰 서비스를 처음부터 운영 가능한 구조로 구축</h4>
+                <p>SMS 인증과 JWT, 점포·방문·스탬프 도메인, 관리자 권한, S3 이미지, QR 발급, Flyway 마이그레이션을 구현했습니다. 사용자·점주·관리자 화면과 API 계약도 함께 맞췄습니다.</p>
+              </article>
+              <article>
+                <h4>WON 여행 정산의 복잡한 환불·마감 규칙을 코드와 문서로 일치</h4>
+                <p>거래·환불 수집 흐름과 월 마감 프로시저를 추적하고, 정산 공문 PDF가 실제 집계 값과 일치하도록 개선했습니다. 빌드부터 ECR 배포, 컨테이너 상태까지 검증했습니다.</p>
+              </article>
+              <article>
+                <h4>공공 관광 서비스와 반복 업무를 함께 현대화</h4>
+                <p>Odii 레거시 Java/MyBatis/JSP 서비스의 통계·재생 흐름을 개선하고 안전한 핫패치 절차를 정립했습니다. 별도로 7개 SNS와 엑셀을 연결하는 Python 수집 파이프라인을 자동화했습니다.</p>
+              </article>
+            </div>
+          </div>
+        </article>
+
+        <article class="career">
+          <header class="career-head">
+            <div><p class="company">티사이언티픽</p><h3>Software Engineer · 연구개발 1팀</h3></div>
+            <p class="period">2021.02 — 누아 이직 전</p>
+          </header>
+          <div class="career-body">
+            <div class="career-summary">
+              <p>정부 과제, 백오피스, 사내 시스템의 백엔드 개발과 배포 자동화를 담당했습니다.</p>
+              <div class="tags"><span>Java</span><span>Spring Boot</span><span>MariaDB</span><span>Jenkins</span><span>Kubernetes</span><span>Argo CD</span></div>
+            </div>
+            <div class="achievement-list">
+              <article>
+                <h4>개인정보 탐지·비식별화 API의 독립 배포 구조 설계</h4>
+                <p>단일 모듈을 core, web-api, open-api로 분리해 서비스 간 변경 영향을 줄였습니다. 확장 환경의 세션 정합성 문제는 JWT 인증으로 해결하고 Jenkins·Argo CD 기반 GitOps 배포를 구성했습니다.</p>
+              </article>
+              <article>
+                <h4>대화 데이터 엑셀 처리 시간을 6초에서 0.5초로 단축</h4>
+                <p>Apache POI 전체 로딩의 병목을 확인하고 FastExcel의 필요한 영역만 읽는 방식으로 교체했습니다. 엑셀·웹 입력의 공통 적재 흐름에는 템플릿 메서드 패턴을 적용했습니다.</p>
+              </article>
+              <article>
+                <h4>정부 과제부터 ERP까지 다양한 운영 시스템 개발</h4>
+                <p>개인정보 라벨링 시스템, 해킹방어대회 운영 사이트, KISA 내 PC 돌보미, 계약·차량·발주·근태 ERP와 사내 자가검진 앱을 개발·유지보수했습니다.</p>
+              </article>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section class="section" id="projects">
+        <div class="section-heading">
+          <h2>대표 프로젝트</h2>
+          <p>비공개 업무 저장소는 구조와 책임 범위만 설명합니다.</p>
+        </div>
+        <div class="project-grid">
+          <article class="project-card featured">
+            <p class="project-index">A</p>
+            <h3>FIT MICE 2026</h3>
+            <p>다국어 방문객 서비스와 운영자 백오피스, 쿠폰·행사장·이용 통계를 아우르는 풀스택 개발 및 AWS 운영.</p>
+            <ul><li>Kotlin / Spring Boot</li><li>Next.js / Orval</li><li>ECS / CodePipeline / RDS</li></ul>
+          </article>
+          <article class="project-card">
+            <p class="project-index">B</p>
+            <h3>세종 음식점 쿠폰</h3>
+            <p>휴대폰 인증부터 QR 방문 확인, 스탬프, 점포·관리자 권한까지 도메인 중심으로 구축.</p>
+            <ul><li>Clean Architecture</li><li>Flyway / MySQL</li><li>S3 / QR / JWT</li></ul>
+          </article>
+          <article class="project-card">
+            <p class="project-index">C</p>
+            <h3>WON 여행 정산</h3>
+            <p>거래·환불 수집과 월 마감, 정산 공문 PDF를 실제 운영 데이터와 일치시키고 배포까지 수행.</p>
+            <ul><li>Spring Batch-like jobs</li><li>MySQL Procedure</li><li>Docker / ECR</li></ul>
+          </article>
+          <article class="project-card">
+            <p class="project-index">D</p>
+            <h3>Odii & 업무 자동화</h3>
+            <p>공공 관광 레거시 서비스의 통계·콘텐츠 흐름 개선과 SNS·엑셀 수집 업무 자동화.</p>
+            <ul><li>Java / MyBatis / JSP</li><li>Python / Playwright</li><li>Safe deployment</li></ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section skills-section">
+        <h2>기술</h2>
+        <div class="skill-list">
+          <div><h3>주력</h3><p>Kotlin, Java, Spring Boot, JPA, MyBatis, MySQL, MariaDB</p></div>
+          <div><h3>제품 개발</h3><p>REST API, DDD, 멀티모듈, JWT, Batch, Flyway, PDF·Excel 처리</p></div>
+          <div><h3>운영</h3><p>AWS ECS, ECR, RDS, ALB, WAF, CloudWatch, S3, Docker, Jenkins, Argo CD</p></div>
+          <div><h3>협업 범위</h3><p>TypeScript, Next.js, React, Python, Playwright, GitHub Actions</p></div>
+        </div>
+      </section>
+
+      <section class="section compact-grid">
+        <h2>학력·자격</h2>
+        <div class="credentials">
+          <p><strong>한국공학대학교</strong><span>컴퓨터전자공학과</span></p>
+          <p><strong>한국폴리텍대학</strong><span>융합보안소프트웨어과</span></p>
+          <p><strong>일학습병행 SW개발 L5</strong><span>2022</span></p>
+          <p><strong>정보처리산업기사</strong><span>2019</span></p>
+        </div>
+      </section>
+
+      <section class="contact section" id="contact">
+        <p class="eyebrow">LET'S WORK TOGETHER</p>
+        <h2>코드 너머의 운영까지<br />함께 책임질 사람을 찾는다면.</h2>
+        <a class="contact-mail" href="mailto:usadev0813@gmail.com">usadev0813@gmail.com ↗</a>
+      </section>
+    </main>
+
+    <footer><p>© <span id="year"></span> Lee JeongHo</p><a href="#top">위로 ↑</a></footer>
+  </body>
+</html>
