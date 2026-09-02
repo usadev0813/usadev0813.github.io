@@ -44,12 +44,9 @@ h1 { margin-bottom: 24px; font-size: clamp(36px, 6vw, 58px); line-height: 1.22; 
 .work-list h4 { margin: 0; font-size: 15px; line-height: 1.6; }
 .work-list p { margin: 0; color: #444; font-size: 15px; }
 
-.skills, .education { display: grid; grid-template-columns: 160px 1fr; gap: 30px; }
-.skills > h2, .education > h2 { margin: 0; }
-dl, .education ul { margin: 0; padding: 0; border-top: 2px solid var(--ink); }
-dl div { display: grid; grid-template-columns: 130px 1fr; gap: 20px; padding: 16px 0; border-bottom: 1px solid var(--line); }
-dt { font-size: 13px; font-weight: 700; }
-dd { margin: 0; font-size: 14px; }
+.education { display: grid; grid-template-columns: 160px 1fr; gap: 30px; }
+.education > h2 { margin: 0; }
+.education ul { margin: 0; padding: 0; border-top: 2px solid var(--ink); }
 .education ul { list-style: none; }
 .education li { display: flex; justify-content: space-between; gap: 20px; padding: 16px 0; border-bottom: 1px solid var(--line); font-size: 14px; }
 .education span { color: var(--muted); text-align: right; }
@@ -67,11 +64,11 @@ footer { padding: 22px 0 34px; border-top: 1px solid var(--line); color: var(--m
   h1 { font-size: clamp(33px, 10vw, 46px); }
   .summary { font-size: 16px; }
   .section, .contact { padding: 48px 0; }
-  .about, .skills, .education { grid-template-columns: 1fr; gap: 18px; }
+  .about, .education { grid-template-columns: 1fr; gap: 18px; }
   .company + .company { margin-top: 44px; }
   .company header { display: block; margin-bottom: 22px; }
   .company header > p { margin-top: 7px; text-align: left; white-space: normal; }
-  .work-list article, dl div { grid-template-columns: 1fr; gap: 5px; }
+  .work-list article { grid-template-columns: 1fr; gap: 5px; }
   .education li { display: block; }
   .education span { display: block; margin-top: 2px; text-align: left; }
 }
